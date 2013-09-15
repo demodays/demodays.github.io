@@ -18,8 +18,13 @@ title: DemoDays
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  	<script type="text/javascript">
+		function delayer() {
+			window.location = "http://demodays.github.io/"
+		}
+	</script>
 </head>
-<body>
+<body onLoad="setTimeout('delayer()', 5000)">
   <div class="navbar navbar-fixed-top">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
