@@ -1,0 +1,5 @@
+markdown: rdiscount
+pygments: true
+name: Demodays.github.io
+description: Software Development DemoDays
+url: http://demodays.github.io

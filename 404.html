@@ -18,8 +18,13 @@ title: DemoDays
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  	<script type="text/javascript">
+		function delayer() {
+			window.location = "http://demodays.github.io/"
+		}
+	</script>
 </head>
-<body>
+<body onLoad="setTimeout('delayer()', 5000)">
   <div class="navbar navbar-fixed-top">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -96,7 +101,7 @@ title: DemoDays
           <p>Why to have event on the same day? Because ...</p>
        	<ul>
         	<li>this way we can share remote presentation from known speakers,
-           that otherwise we can hardly get to our city.</li>
+           that otherwise we could hardly get in our city.</li>
         	<li>it is easier to invite guests and speakers</li>  
 		</ul>
         
@@ -176,20 +181,6 @@ title: DemoDays
          <a href="http://demodays.org/"><img src="/img/demoscene-20120901-_dsc0757.jpg"/></a><br/>
          <p>There is an other event <a href="http://tokyodemofest.jp/2013/?lang=en">TokyoDemoFest</a></p>
       </div>
-      
-      <a class="anchor" id="for-bloggers"></a>
-      <div class="page-header">
-        <h3>For Bloggers and Users of Twitter, LinkedIn, Flickr, Weibo, Weixin etc.</h3>
-        <p>In case you plan to blog or tweet about the DemoDays, please use the tag #demodays in order to make it easier
- to find all the comments and pictures. Thanks a lot for telling the world about the event!</p>
-      </div>
-      
-      <a class="logos" id="logos"></a>
-      <div class="page-header">
-        <h3>Logos</h3>
-	      <p><a href="http://with-eclipse.github.io/" target="_blank"><img alt="with-Eclipse logo" src="http://with-eclipse.github.io/with-eclipse-1.jpg" /></a></p>
-      </div>
-      
 
     </section>
 
@@ -197,7 +188,7 @@ title: DemoDays
   
   <footer>
     <div class="container">
-      <p class="pull-left"><a href="http://demodays.github.io"><img id="logo" src="/img/logo.png"/></a></p>
+      <p class="pull-left"><a href="http://enide.github.io"><img id="logo" src="/img/logo.png"/></a></p>
       <p class="muted credit pull-right"><small>&copy; 2013 <a href="http://demodays.github.io">DemoDays</a></small></p>
     </div>
   </footer>
